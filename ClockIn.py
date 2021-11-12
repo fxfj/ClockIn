@@ -9,14 +9,14 @@ urllib3.disable_warnings()
 
 
 # --------------------------------------------------------------------------
-phone = sys.argv[1]
-pwd = sys.argv[2]
-address = sys.argv[3]
-lat = sys.argv[4]
-lng = sys.argv[5]
-district = sys.argv[6]
-deviceToken = sys.argv[7]
-sckey = sys.argv[8]
+phone = 13203879703
+pwd = lf553075327
+address = '河南省郑州市二七区长江路街道郑州航空工业管理学院'
+lat = 113.646153
+lng = 34.716907
+district = '河南省-郑州市-二七区'
+deviceToken = A517BB94-2D9C-49F4-B4A8-F0E32697BF09
+sckey = SCT86721TuMepNaHJZ1sSsOQ3bOCznQ03
 # ---------------------------------------------------------------------------
 session = requests.Session()
 date = time.strftime('%Y年%m月', time.localtime())
