@@ -156,3 +156,4 @@ if __name__ == "__main__":
     token = login()
     time.sleep(3)
     now_H = int(time.strftime("%H"))
+    sign_in(token)
